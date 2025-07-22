@@ -53,7 +53,10 @@
 
 .cards{
     flex: 1;
+    display: flex;
+    justify-content: center;
 }
+
 .cards span{
     display: flex;
     flex-direction: column;
@@ -115,7 +118,8 @@
 #img-history-exp{
     flex: 1;
     display: flex;
-    justify-content: left;
+    justify-content: end;
+
 }
 
 /*Footer*/
